@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "ravyz.mod.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "TwoHandedMacuahuitl"
+  ]
+}
+}
