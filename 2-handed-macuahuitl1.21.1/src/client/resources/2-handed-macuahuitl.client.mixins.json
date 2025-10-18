@@ -3,6 +3,7 @@
   "package": "ravyz.mod.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "HideOffhandItemMixin",
     "PlayerEntityRendererMixin"
   ],
   "injectors": {

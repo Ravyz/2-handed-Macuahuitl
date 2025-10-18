@@ -17,7 +17,7 @@ public class PlayerEntityRendererMixin {
 	@Inject(method = "getArmPose", at = @At("HEAD"), cancellable = true)
 	private static void TwoHandedMacuahuitl$getArmPoseDR(AbstractClientPlayerEntity player, Hand hand, CallbackInfoReturnable<BipedEntityModel.ArmPose> cir) {
 		ItemStack itemStack = player.getMainHandStack();
-        if (itemStack.getName().equals(Text.literal("Ravyz Blade")) && itemStack.getItem() instanceof SwordItem) {
+        if (itemStack.getName().equals(Text.literal("Macuahuitl")) && itemStack.getItem() instanceof SwordItem) {
             cir.setReturnValue(BipedEntityModel.ArmPose.CROSSBOW_HOLD);
         }
         }}
