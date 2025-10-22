@@ -3,11 +3,11 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [8, 8],
 	"textures": {
-		"5": "azgold",
-		"6": "azrock",
-		"7": "azguard",
-		"8": "azhilt",
-		"9": "azend"
+		"5": "./Macugold",
+		"6": "./Macurock",
+		"7": "./Macuguard",
+		"8": "./Macuhilt",
+		"9": "./Macuend"
 	},
 	"elements": [
 		{
@@ -304,13 +304,14 @@
 		},
 		"thirdperson_lefthand": {
 			"rotation": [90, 0, 90],
-			"translation": [-7.5, 10.5, -3]
+			"translation": [-7.5, 8.25, -3]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 0, 90]
+			"rotation": [45.5, 0, 90],
+			"translation": [2.75, 0, 2]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 0, 90],
+			"rotation": [45.5, 0, 90],
 			"translation": [0, -6.25, 0]
 		},
 		"ground": {
